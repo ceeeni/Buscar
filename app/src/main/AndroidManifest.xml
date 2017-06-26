@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.ceeeni.buscar">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/wallpaperTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TweetActivity"/>
+        <meta-data android:name="CONSUMER_KEY" android:value="glpTHo782Qc8LqxGeaURG8Wlk" ></meta-data>
+        <meta-data android:name="CONSUMER_SECRET" android:value="wiMlQpEPZjbfbQuAPrhinKZ0G8nsC9IeZelEOUYi5alToerZSv" ></meta-data>
+    </application>
+
+</manifest>
